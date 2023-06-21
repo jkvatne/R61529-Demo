@@ -3,7 +3,12 @@
 
 This project is used to test the R61529 addition to the TFT-eSPI library. It uses Clion and Platformio, but it should be easy to convert it to another compiler.
 The excelent TFT-eSPI library does not contain support for the R61529 yet, but a Pull Request has been submited. The code can be found at https://github.com/jkvatne/TFT_eSPI
-Check out the R61529 branch into the lib/TFT_eSPI folder.
+Check out the R61529 branch into the lib/TFT_eSPI folder. This is done with the following commands:
+
+    cd lib
+    $ git clone https://github.com/jkvatne/TFT_eSPI.git
+    $ cd TFT_eSPI
+    $ git checkout remotes/origin/R61529
 
 # Board
 
