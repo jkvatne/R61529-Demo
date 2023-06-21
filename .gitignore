@@ -1,0 +1,5 @@
+.pio
+CMake*.*
+.idea/
+cmake-build-*/ 
+lib/TFT_eSPI/
