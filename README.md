@@ -17,7 +17,15 @@ R61529 based lcd panel as shown below. It works from 3.3V. The board has a 3.3V 
 
 # LCD Panel
 
-The LCD panel comes from  [Aliexpress](https://www.aliexpress.com/item/32940608152.html)), and is the version with LCD and Capacitive Touch. It uses the FT6206 touch controller. Note that only 8-bit paralell mode is possible - no SPI. 
+The LCD panel comes from  [Aliexpress](https://www.aliexpress.com/item/32940608152.html)), and is the version with LCD and Capacitive Touch. It usesthe FT6206 touch controller. Note that only 8-bit paralell mode is possible - no SPI. 
+
+
+Also note that the documentation for the strapping of the IM0, IM1, IM2 pins are wrong. Strap as shown here for Mode = 4 :MIPI DBI Type B 8 bits.
+Actually there is an IM3 pin that is wired low internaly.
+- IM2 = 3.3V
+- IM1 = 0V
+- IM0 = 0V
+
 
 # TFT panel connections
 
